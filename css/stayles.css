@@ -50,7 +50,7 @@ body{
     font-size: 15px;
     font-weight: bold;
     line-height: 1.5;
-    font-family:"Spartan", "Arial", sans-serif;
+    font-family:"League Spartan", "Arial", sans-serif;
     background-color: #fff;
     color: var(--black);
 }
@@ -180,7 +180,6 @@ img{
 .job-listings-company-badges {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
 }
 
 .job-listings-company-name {
