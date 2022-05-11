@@ -145,7 +145,7 @@ img{
     list-style: none;
 }
 
-.job-listings-item {
+.job-listings__item {
     display: flex;
     align-items: center;
     padding: 32px 40px 32px 35px;
@@ -155,15 +155,15 @@ img{
     box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
 }
 
-.job-listings-featured {
+.job-listings__featured {
     border-left-color: var(--green);
 }
 
-.job-listings-item:not(:last-child) {
+.job-listings__item:not(:last-child) {
     margin-bottom: 24px;
 }
 
-.job-listings-logo {
+.job-listings__logo {
     flex-shrink: 0;
     width: 88px;
     height: 88px;
@@ -172,38 +172,38 @@ img{
     border-radius: 50%;
 }
 
-.job-listings-info {
+.job-listings__info {
     flex-grow: 1;
     margin-right: 24px;
 }
 
-.job-listings-company-badges {
+.job-listings__company-badges {
     display: flex;
     align-items: center;
 }
 
-.job-listings-company-name {
+.job-listings__company-name {
     margin-right: 24px;
     font-size: 14px;
     line-height: 16px;
     color: var(--green);
 }
 
-.job-listings-badges {
+.job-listings__badges {
     display: flex;
     margin-bottom: 8px;
 }
 
-.job-listings-badges-item:not(:last-child) {
+.job-listings__badges-item:not(:last-child) {
     margin-right: 8px;
 }
 
-.job-listings-position {
+.job-listings__position {
     margin-top: 0;
     margin-bottom: 8px;
 }
 
-.job-listings-position-link {
+.job-listings__position-link {
     font-size: 18px;
     line-height: 24px;
     color: var(--black);
@@ -211,11 +211,11 @@ img{
     transition: color 0.3s ease;
 }
 
-.job-listings-position-link:hover {
+.job-listings__position-link:hover {
     color: var(--green);
 }
 
-.job-listings-addl {
+.job-listings__addl {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -223,12 +223,12 @@ img{
     color: var(--blurry-green);
 }
 
-.job-listings-addl-item:not(:last-child) {
+.job-listings__addl-item:not(:last-child) {
     position: relative;
     margin-right: 36px;
 }
 
-.job-listings-addl-item:not(:last-child)::after {
+.job-listings__addl-item:not(:last-child)::after {
     position: absolute;
     right: -20px;
     top: 50%;
@@ -240,7 +240,7 @@ img{
     content: "";
 }
 
-.job-listings-tegs {
+.job-listings__tegs {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -250,6 +250,6 @@ img{
     list-style: none;
 }
 
-.job-listings-tegs-item:not(:last-child) {
+.job-listings__tegs-item:not(:last-child) {
     margin-right: 16px;
 }
