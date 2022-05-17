@@ -117,6 +117,13 @@ img{
     line-height: 24px;
     letter-spacing: -0.1px;
     color:var(--green);
+    cursor: pointer;
+    transition: background-color .3s ease, color .3s ease;
+}
+
+.tag:hover {
+    background-color: var(--green);
+    color: #fff;
 }
 
 /* MAIN-CONTENT */
